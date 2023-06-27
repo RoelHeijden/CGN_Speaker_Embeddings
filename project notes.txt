@@ -1,0 +1,20 @@
+
+Dataset annotations:
+    ./ort/   : dialogue transcription for both speakers separately
+    ./plk/   : dialogue separated by speaker turns (but new sentences start a new turn if same speaker)
+    ./awd/   : automatic word segmentations a <IGNORE>
+    ./fon/   : <CANNOT OPEN>
+    ./wrd/   : manual word segmentations a <IGNORE>
+    ./syn/   : syntax annotations <IGNORE>
+    ./pro/   : prosodic annotations <IGNORE>
+
+- speakerIDs are listed in: data\meta\xlsrecordings.xls
+- annotations: data\annot\text\
+    - Speaker labels: \plk\ (and \ort\, because it's separated by speaker)
+    - Speaker turns: \ort\
+            5.084 (start time)
+            7.107 (end time)
+            "die heb ik" (sentence) or "" (end of speaker turn)
+
+
+
